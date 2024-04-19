@@ -107,7 +107,7 @@ test('isMarkdownExt', () => {
 test('isMenuFileName', () => {
   const t = [
     { name: 'menu.md', expect: true },
-    { name: 'menu.msx', expect: false },
+    { name: 'menu.mdx', expect: false },
     { name: 'menu.tsx', expect: false },
     { name: 'menu.ts', expect: false },
   ];
